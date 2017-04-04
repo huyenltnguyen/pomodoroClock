@@ -1,0 +1,101 @@
+body {
+	height: 100%;
+	color: #451b13;
+	font-family: 'Droid Sans'
+}
+
+#container{
+	/* takes full browser width and height */
+	position: fixed;
+    padding:0;
+    margin:0;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 100%;
+	
+	background: #ff6347; /* fallback for old browsers */
+	background: linear-gradient(to top left, #ff6347, #ff8d79); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */  
+      
+}
+
+#box {
+	width: 360px;
+	margin: 0 auto;
+	text-align: center;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#sessionSection, #breakSection {
+	display: inline-block;
+	width: 45%;
+}
+
+#sessionSection {
+	margin: 0 2.5%;
+}
+
+#sessionSection h2, #sessionSection input, #breakSection h2, #breakSection input {
+	display: inline-block;
+	margin-right: 2%;
+	margin-left: 2%;
+}
+
+input {
+	background: none;
+	border: none;
+	border-bottom: 2px solid #451b13;
+	width: 24px;
+	text-align: center;
+	font-size: 22px;
+	padding: 5px 5px 0 5px;
+
+	color: #451b13;
+	font-family: 'Droid Sans'
+}
+
+button {
+	font-size: 16px;
+	padding: 8px 10px;
+	margin-right: 10px;
+	margin-left: 10px;
+	margin-top: 24px;
+	color: #451b13;
+	font-family: 'Droid Sans'
+}
+
+i {
+	margin-right: 5px;
+}
+
+button:hover{
+	cursor: pointer;
+}
+
+#timerBtn {
+	background-color: #9acd32;
+	border: none;	
+}
+
+
+#resetBtn {
+	background-color: #bbbbbb;
+	border: none;	
+}
+
+#timerSection {
+	width: 250px;
+	height: 250px;
+	border: 5px solid #f3f297;
+	border-radius: 50%;
+	margin-top: 36px;	
+	margin-left: 55px;
+}
+
+#timerTitle{
+	padding-top: 62.5px;
+}

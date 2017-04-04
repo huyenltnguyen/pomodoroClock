@@ -1,0 +1,44 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="$1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Pomodoro</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Droid+Sans" rel="stylesheet"> 
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+	<script type="text/javascript" src="pomodoro.js"></script>
+		
+</head>
+<body>
+	<div id="container">
+		<div id="box">
+			<div id="sessionSection">
+				<h2>Session</h2>
+				<input value="25" class="duration" id="session">
+							
+			</div>
+
+			<div id="breakSection">
+				<h2>Break</h2>
+				<input value="5" class="duration" id="break">
+			</div>
+
+			<div id="buttons">
+				<button id="timerBtn"><i class="fa fa-play"></i> Start Timer</button>
+				<button id="resetBtn"><i class="fa fa-repeat"></i> Reset Timer</button>
+			</div>
+
+			<div id="timerSection">
+				<h2 id="timerTitle"></h2>
+				<h2 id="timer"></h2>
+			</div>
+		</div>
+
+		
+	</div>
+
+</body>
+</html>
